@@ -4,7 +4,7 @@ There are a number of plugins installed on Gulliverbits to enable different func
 
 ## Plugins
 
-- BlueMap
+- [BlueMap](bluemap.md)
 - ChestShop
 - ChestSort
 - DiscordSRV
