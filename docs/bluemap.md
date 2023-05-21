@@ -1,7 +1,7 @@
 # BlueMap
 
 <p style="text-align: center;">
-    <img src="bluemap.png" />
+    <img src="bluemap.png" alt="Bluemap on Gulliverbits" />
 </p>
 
 Bluemap provides us with a real-time 3D map of the server. You can view it at [https://map.gulliverbits.com](https://map.gulliverbits.com).
