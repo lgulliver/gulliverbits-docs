@@ -7,7 +7,7 @@ There are a number of plugins installed on Gulliverbits to enable different func
 - [BlueMap](bluemap.md)
 - ChestShop
 - ChestSort
-- DiscordSRV
+- [DiscordSRV](discord.md)
 - Essentials
 - GriefPrevention
 - Jobs
@@ -16,6 +16,6 @@ There are a number of plugins installed on Gulliverbits to enable different func
 - Movecraft
 - SkinsRestorer
 - Towny
-- uSkyBlock
+- [uSkyBlock](skyblock.md)
 - Vault
 - VeinMiner
