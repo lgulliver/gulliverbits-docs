@@ -13,6 +13,7 @@ To connect for the first time, contact Liam on Discord as you will need to be wh
 Here you will find information about the server, including game modes, rules, enabled plugins and how to use them.
 
 Joining from a _Nintendo Switch_ or _Xbox_? See [this page](bedrock.md) for more information.
+
 For more on how to link your Discord account to the server, see [this page](discord.md).
 
 ## Announcements
