@@ -96,11 +96,11 @@ Plots can be of different types, which have unique functions. You can change a p
 Mayors can control various aspects of their town, including tax rates and rank assignment.
 General Commands
 
-    - `/town set name <new name>` - changes your town name.
-    - `/town set mayor <player>` - allows you to transfer the mayorship of your town.
-    - `/town set board <message>` - sets the town board, which is seen on the scoreboard and by players when logging in.
-    - `/town set homeblock` - sets the homeblock of your town. Typing /town set spawn in a homeblock changes your town respawn point to where you are standing.
-    - `/town set tag <tag>` - sets your town tag, which will be shown in chat instead of your full town name.
+    - /town set name <new name> - changes your town name.
+    - /town set mayor <player> - allows you to transfer the mayorship of your town.
+    - /town set board <message> - sets the town board, which is seen on the scoreboard and by players when logging in.
+    - /town set homeblock - sets the homeblock of your town. Typing /town set spawn in a homeblock changes your town respawn point to where you are standing.
+    - /town set tag <tag> - sets your town tag, which will be shown in chat instead of your full town name.
 
 ### Ranks
 
@@ -123,9 +123,9 @@ The percentage and flat tax can be set through `/town set taxes <amount/percenta
 
 The following commands allow you to set taxes for different plot types:
 
-    - `/town set plottax <amount>` – Set taxes collected from each resident daily, per plot that they own.
-    - `/town set shoptax <amount>` – Set taxes collected from each resident daily, per shop plot that they own.
-    - `/town set embassytax <amount>` – Set taxes collected from each resident daily, per embassy plot that they own.
+    - /town set plottax <amount> – Set taxes collected from each resident daily, per plot that they own.
+    - /town set shoptax <amount> – Set taxes collected from each resident daily, per shop plot that they own.
+    - /town set embassytax <amount> – Set taxes collected from each resident daily, per embassy plot that they own.
 
 ### Outlaws and Jails
 
@@ -159,12 +159,12 @@ You can set taxes on your nation's towns by typing `/n set taxes <tax amount>`. 
 
 ### General Nation Commands
 
-    - `/nation set title <player> <title goes here>` - grants a nation member a title which will appear before their name in chat.
-    - `/nation set surname <player> <surname goes here>` - grants a nation member a surname which will appear after their name in chat.
-    - `/nation set name <new name>` - changes the nation name.
-    - `/nation set capital <town>` - changes the nation's capital city and transfers nation leadership to its mayor.
-    - `/nation set king <player>` - transfers nation leadership to a player in your nation.
-    - `/nation set tag <tag>` - sets your nation tag, which will be shown in chat instead of your full nation name.
+    - /nation set title <player> <title goes here> - grants a nation member a title which will appear before their name in chat.
+    - /nation set surname <player> <surname goes here> - grants a nation member a surname which will appear after their name in chat.
+    - /nation set name <new name> - changes the nation name.
+    - /nation set capital <town> - changes the nation's capital city and transfers nation leadership to its mayor.
+    - /nation set king <player> - transfers nation leadership to a player in your nation.
+    - /nation set tag <tag> - sets your nation tag, which will be shown in chat instead of your full nation name.
 
 ### Nation Ranks
 
