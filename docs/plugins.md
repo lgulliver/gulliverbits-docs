@@ -15,7 +15,7 @@ There are a number of plugins installed on Gulliverbits to enable different func
 - mcMMOHorse
 - Movecraft
 - SkinsRestorer
-- Towny
+- [Towny](towny.md)
 - [uSkyBlock](skyblock.md)
 - Vault
 - VeinMiner
