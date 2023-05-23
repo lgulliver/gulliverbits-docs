@@ -766,11 +766,11 @@ Your town bank balance
 <h2 id="town-management">Town Management</h2>
 <p>Mayors can control various aspects of their town, including tax rates and rank assignment.
 General Commands</p>
-<pre><code>- `/town set name &lt;new name&gt;` - changes your town name.
-- `/town set mayor &lt;player&gt;` - allows you to transfer the mayorship of your town.
-- `/town set board &lt;message&gt;` - sets the town board, which is seen on the scoreboard and by players when logging in.
-- `/town set homeblock` - sets the homeblock of your town. Typing /town set spawn in a homeblock changes your town respawn point to where you are standing.
-- `/town set tag &lt;tag&gt;` - sets your town tag, which will be shown in chat instead of your full town name.
+<pre><code>- /town set name &lt;new name&gt; - changes your town name.
+- /town set mayor &lt;player&gt; - allows you to transfer the mayorship of your town.
+- /town set board &lt;message&gt; - sets the town board, which is seen on the scoreboard and by players when logging in.
+- /town set homeblock - sets the homeblock of your town. Typing /town set spawn in a homeblock changes your town respawn point to where you are standing.
+- /town set tag &lt;tag&gt; - sets your town tag, which will be shown in chat instead of your full town name.
 </code></pre>
 <h3 id="ranks">Ranks</h3>
 <p>Mayors can assign ranks to residents to aid them in administrating their town with /t rank add <player> <rank name>.</p>
@@ -786,9 +786,9 @@ General Commands</p>
 <p>There are two modes of taxation. The default mode of taxation, flat taxes, takes a set amount of money from residents each day. If a resident cannot afford to pay the tax, they will be kicked from the town. The other mode of taxation, percentage taxes, takes a percentage of residents' money each day. If a resident is unable to pay a percentage tax, they will not 'be kicked from the town.</p>
 <p>The percentage and flat tax can be set through <code>/town set taxes &lt;amount/percentage&gt;</code>. To switch between the two modes of taxation, type <code>/town toggle taxpercent</code>.</p>
 <p>The following commands allow you to set taxes for different plot types:</p>
-<pre><code>- `/town set plottax &lt;amount&gt;` – Set taxes collected from each resident daily, per plot that they own.
-- `/town set shoptax &lt;amount&gt;` – Set taxes collected from each resident daily, per shop plot that they own.
-- `/town set embassytax &lt;amount&gt;` – Set taxes collected from each resident daily, per embassy plot that they own.
+<pre><code>- /town set plottax &lt;amount&gt; – Set taxes collected from each resident daily, per plot that they own.
+- /town set shoptax &lt;amount&gt; – Set taxes collected from each resident daily, per shop plot that they own.
+- /town set embassytax &lt;amount&gt; – Set taxes collected from each resident daily, per embassy plot that they own.
 </code></pre>
 <h3 id="outlaws-and-jails">Outlaws and Jails</h3>
 <p>Mayors and police can jail and unjail residents by typing <code>/town toggle jail &lt;player&gt;</code>. Jailed residents will be sent to a jail plot if one exists. They cannot teleport and will return to the jail if they die. However, they can leave by escaping the jail plot and walking out of the town, or by paying a $10,000 bail to the town bank through the command <code>/resident jail paybail</code>.</p>
@@ -808,12 +808,12 @@ General Commands</p>
 <p>Nations have a daily upkeep of $1,000 which is taken from the nation bank. You can deposit nation</p>
 <p>You can set taxes on your nation's towns by typing <code>/n set taxes &lt;tax amount&gt;</code>. Like town taxes, nation taxes are taken every 24 hours in real life and are deposited in the nation bank.</p>
 <h3 id="general-nation-commands">General Nation Commands</h3>
-<pre><code>- `/nation set title &lt;player&gt; &lt;title goes here&gt;` - grants a nation member a title which will appear before their name in chat.
-- `/nation set surname &lt;player&gt; &lt;surname goes here&gt;` - grants a nation member a surname which will appear after their name in chat.
-- `/nation set name &lt;new name&gt;` - changes the nation name.
-- `/nation set capital &lt;town&gt;` - changes the nation's capital city and transfers nation leadership to its mayor.
-- `/nation set king &lt;player&gt;` - transfers nation leadership to a player in your nation.
-- `/nation set tag &lt;tag&gt;` - sets your nation tag, which will be shown in chat instead of your full nation name.
+<pre><code>- /nation set title &lt;player&gt; &lt;title goes here&gt; - grants a nation member a title which will appear before their name in chat.
+- /nation set surname &lt;player&gt; &lt;surname goes here&gt; - grants a nation member a surname which will appear after their name in chat.
+- /nation set name &lt;new name&gt; - changes the nation name.
+- /nation set capital &lt;town&gt; - changes the nation's capital city and transfers nation leadership to its mayor.
+- /nation set king &lt;player&gt; - transfers nation leadership to a player in your nation.
+- /nation set tag &lt;tag&gt; - sets your nation tag, which will be shown in chat instead of your full nation name.
 </code></pre>
 <h3 id="nation-ranks">Nation Ranks</h3>
 <p>Nation leaders can assign ranks to nation members. This can be done by typing <code>/n rank add &lt;player&gt; &lt;rank name&gt;</code>. Like town ranks, these give the rank holder special privileges.  </p>
