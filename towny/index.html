@@ -1,0 +1,868 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+        <link rel="prev" href="../skyblock/">
+      
+      
+      <link rel="icon" href="../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.4.3, mkdocs-material-9.1.14">
+    
+    
+      
+        <title>Towny - Gulliverbits Minecraft Server</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.85bb2934.min.css">
+      
+        
+        <link rel="stylesheet" href="../assets/stylesheets/palette.a6bdf11c.min.css">
+      
+      
+
+    
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="slate" data-md-color-primary="indigo" data-md-color-accent="indigo">
+  
+    
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#towny" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href=".." title="Gulliverbits Minecraft Server" class="md-header__button md-logo" aria-label="Gulliverbits Minecraft Server" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Gulliverbits Minecraft Server
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Towny
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41Z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href=".." title="Gulliverbits Minecraft Server" class="md-nav__button md-logo" aria-label="Gulliverbits Minecraft Server" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"/></svg>
+
+    </a>
+    Gulliverbits Minecraft Server
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href=".." class="md-nav__link">
+        Welcome to Gulliverbits
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../bedrock/" class="md-nav__link">
+        Connecting from Bedrock on Nintendo Switch or Xbox
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../bluemap/" class="md-nav__link">
+        BlueMap
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../discord/" class="md-nav__link">
+        Discord
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../plugins/" class="md-nav__link">
+        Server Plugins
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../skyblock/" class="md-nav__link">
+        Skyblock
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+    
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          Towny
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        Towny
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#introduction" class="md-nav__link">
+    Introduction
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#town-creation" class="md-nav__link">
+    Town Creation
+  </a>
+  
+    <nav class="md-nav" aria-label="Town Creation">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#creating-a-town" class="md-nav__link">
+    Creating a Town
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#inviting-other-players" class="md-nav__link">
+    Inviting Other Players
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#claiming-land" class="md-nav__link">
+    Claiming Land
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#outposts" class="md-nav__link">
+    Outposts
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#town-upkeep" class="md-nav__link">
+    Town Upkeep
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#plot-management" class="md-nav__link">
+    Plot Management
+  </a>
+  
+    <nav class="md-nav" aria-label="Plot Management">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#selling-plots" class="md-nav__link">
+    Selling Plots
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#plot-permissions" class="md-nav__link">
+    Plot Permissions
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#plot-types" class="md-nav__link">
+    Plot Types
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#town-management" class="md-nav__link">
+    Town Management
+  </a>
+  
+    <nav class="md-nav" aria-label="Town Management">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#ranks" class="md-nav__link">
+    Ranks
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#taxation" class="md-nav__link">
+    Taxation
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#outlaws-and-jails" class="md-nav__link">
+    Outlaws and Jails
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#nations" class="md-nav__link">
+    Nations
+  </a>
+  
+    <nav class="md-nav" aria-label="Nations">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#nation-creation" class="md-nav__link">
+    Nation Creation
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#inviting-towns-to-nations" class="md-nav__link">
+    Inviting Towns to Nations
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#nation-upkeep-and-taxation" class="md-nav__link">
+    Nation Upkeep and Taxation
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#general-nation-commands" class="md-nav__link">
+    General Nation Commands
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#nation-ranks" class="md-nav__link">
+    Nation Ranks
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#introduction" class="md-nav__link">
+    Introduction
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#town-creation" class="md-nav__link">
+    Town Creation
+  </a>
+  
+    <nav class="md-nav" aria-label="Town Creation">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#creating-a-town" class="md-nav__link">
+    Creating a Town
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#inviting-other-players" class="md-nav__link">
+    Inviting Other Players
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#claiming-land" class="md-nav__link">
+    Claiming Land
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#outposts" class="md-nav__link">
+    Outposts
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#town-upkeep" class="md-nav__link">
+    Town Upkeep
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#plot-management" class="md-nav__link">
+    Plot Management
+  </a>
+  
+    <nav class="md-nav" aria-label="Plot Management">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#selling-plots" class="md-nav__link">
+    Selling Plots
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#plot-permissions" class="md-nav__link">
+    Plot Permissions
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#plot-types" class="md-nav__link">
+    Plot Types
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#town-management" class="md-nav__link">
+    Town Management
+  </a>
+  
+    <nav class="md-nav" aria-label="Town Management">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#ranks" class="md-nav__link">
+    Ranks
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#taxation" class="md-nav__link">
+    Taxation
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#outlaws-and-jails" class="md-nav__link">
+    Outlaws and Jails
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#nations" class="md-nav__link">
+    Nations
+  </a>
+  
+    <nav class="md-nav" aria-label="Nations">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#nation-creation" class="md-nav__link">
+    Nation Creation
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#inviting-towns-to-nations" class="md-nav__link">
+    Inviting Towns to Nations
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#nation-upkeep-and-taxation" class="md-nav__link">
+    Nation Upkeep and Taxation
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#general-nation-commands" class="md-nav__link">
+    General Nation Commands
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#nation-ranks" class="md-nav__link">
+    Nation Ranks
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+<h1 id="towny">Towny</h1>
+<h2 id="introduction">Introduction</h2>
+<p>Towny is the land protection plugin used on Nations. It allows you to create towns, which you can invite other players to. The owner of a town is called its mayor, whilst the members of a town are called its residents. Nations, which are a political union of multiple towns, can also be formed. Nations can go to war with each other and give their towns multiple benefits.</p>
+<h2 id="town-creation">Town Creation</h2>
+<h3 id="creating-a-town">Creating a Town</h3>
+<p>An example of a town's information.</p>
+<p>To create a town, type <code>/t new &lt;town name&gt;</code>. This will create a town on the chunk you are standing on. For example, /t new London will create a town called 'London', centered on the chunk you are standing on. This chunk is called your homeblock and you will spawn there if you die.</p>
+<p>Once you have created a town, you can view its information by typing <code>/t &lt;name of your town&gt;</code>. This displays important information such as:</p>
+<pre><code>Your town's residents and their ranks
+
+Your town's size - in other words, how many chunks you have claimed and the claim limit
+
+Your town's outposts and outpost limit
+
+Your town tax
+
+Your town bank balance
+</code></pre>
+<p>These will be explained later in this tutorial.</p>
+<h3 id="inviting-other-players">Inviting Other Players</h3>
+<p>You can invite other players to your town using <code>/t add &lt;player name&gt;</code>. They will need to do <code>/accept &lt;name of your town&gt;</code> to join. You can privately talk to players in your town by switching to town chat by typing <code>/tc</code>. You can return to general chat by typing <code>/g</code>.</p>
+<h3 id="claiming-land">Claiming Land</h3>
+<p>Your town has a limit on how many chunks (townblocks) it can claim. Each resident increases this limit by 8 chunks. To claim a chunk for your town, type <code>/t claim</code>. It must be next to an existing claim. This will deduct $25 from your town bank. To deposit money in your town bank, type <code>/t deposit &lt;amount&gt;</code>. You can view chunk borders with <code>/resident toggle constantplotborder</code>.</p>
+<p>You can also buy additional townblocks with <code>/t buy bonus &lt;amount of chunks&gt;</code>. Joining or creating a nation will also increase the townblock limit.</p>
+<h3 id="outposts">Outposts</h3>
+<p>If you need to claim land which is not adjacent to an existing claim, you must create an outpost through <code>/t claim outpost</code>. Outposts cost more than regular claims, and your town must be in a nation to create them. You can only have a maximum of two outposts.</p>
+<h3 id="town-upkeep">Town Upkeep</h3>
+<p>Each townblock your town claims will increase your town upkeep by $10. Town upkeep is collected from your town bank every 24 hours in real life. If your town bank does not have enough money to pay the upkeep, it will be disbanded and can be griefed.</p>
+<h2 id="plot-management">Plot Management</h2>
+<p>Claimed townblocks/chunks are called plots. Remember that they are simply claimed chunks, so all of them are 16x16 blocks.</p>
+<h3 id="selling-plots">Selling Plots</h3>
+<p>Plots can be sold and given to your residents. To put a plot for sale, type <code>/plot forsale &lt;price of the plot&gt;</code> while standing inside it. By default, the plot price will be set 0. Residents can then buy the plot by typing <code>/plot claim</code>. If the plot has a price, the amount paid will go to the town bank.</p>
+<p>You can change the default price for newly set-for-sale plots with <code>/town set plotprice &lt;price&gt;</code>.</p>
+<h3 id="plot-permissions">Plot Permissions</h3>
+<p>The owner of a plot can control who can access it by typing <code>/plot set perm &lt;group&gt; &lt;permission&gt; [on/off]</code> while standing inside it.</p>
+<p>Groups are:</p>
+<pre><code>- friend - players on your friend list. You can edit your friend list with /res friend.
+- resident - players from your town.
+- ally - players from your town, nation and allied nations.
+- outsider - players not from your town, nation or an allied nation.
+</code></pre>
+<p>Permissions are:</p>
+<pre><code>- build - controls whether a group can build in your plot
+- destroy - controls whether a group can break blocks in your plot
+- switch - controls whether a group can use chests, hoppers, furnaces, doors, dispensers, etc.
+- itemuse - controls whether a group can place/destroy minecarts, use buckets and bone meal, etc.
+</code></pre>
+<p>For example,<code>/plot set perm build ally</code> on would allow players from your town, nation and allied nations to build in the plot you are standing in.</p>
+<p>If you want to control permissions for all your owned plots, use <code>/resident set perm &lt;group&gt; &lt;permission&gt; [on/off]</code></p>
+<p>Mayors can control permissions for all unowned plots with <code>/town set perm &lt;group&gt; &lt;permission&gt; [on/off]</code>.</p>
+<h3 id="plot-types">Plot Types</h3>
+<p>Plots can be of different types, which have unique functions. You can change a plot's type by typing <code>/plot set &lt;plot type&gt;</code> while standing in it.</p>
+<pre><code>- default - the default plot type. All plots are default when first claimed. Non-default plots can be made default again with `/plot set reset`.
+- shop - designates a player shop area. The plot will appear red on the map.
+- arena - arena plots have PvP and friendly fire enabled at all times.
+- embassy - if for sale, embassy plots can be bought by any player, even if they're not a resident of the town.
+- bank - designates a bank, which allows you to deposit and withdraw from your town and nation banks.
+- jail - designates a jail, where players will be sent to if imprisoned - see the section on ranks.
+- farm - designates a farm, where the only blocks that can be placed and destroyed are crops.
+- wilds - designates a semi-protected wilderness plot, where trees, flowers, mushrooms etc can be broken but all other blocks cannot.
+</code></pre>
+<h2 id="town-management">Town Management</h2>
+<p>Mayors can control various aspects of their town, including tax rates and rank assignment.
+General Commands</p>
+<pre><code>- `/town set name &lt;new name&gt;` - changes your town name.
+- `/town set mayor &lt;player&gt;` - allows you to transfer the mayorship of your town.
+- `/town set board &lt;message&gt;` - sets the town board, which is seen on the scoreboard and by players when logging in.
+- `/town set homeblock` - sets the homeblock of your town. Typing /town set spawn in a homeblock changes your town respawn point to where you are standing.
+- `/town set tag &lt;tag&gt;` - sets your town tag, which will be shown in chat instead of your full town name.
+</code></pre>
+<h3 id="ranks">Ranks</h3>
+<p>Mayors can assign ranks to residents to aid them in administrating their town with /t rank add <player> <rank name>.</p>
+<pre><code>- comayor - has all the permissions of a mayor (including the ability to delete a town!). Give this rank with caution.
+- assistant - has the ability to invite and kick residents, manage plots they don't own, claim land and jail residents.
+- police - has the ability to designate outlaws (explained later in this tutorial) and jail residents through /town toggle jail &lt;player&gt;. Keep in mind you need to set a jail plot - for the jail command to work.
+- builder - can build in any plot, even if they don't own it.
+- planner - has full access to plot management commands.
+- treasurer - has full control over taxes (explained later in this tutorial) and can withdraw from the town bank.
+</code></pre>
+<h3 id="taxation">Taxation</h3>
+<p>Mayors and treasurers can set taxes to extract money from residents. They are collected every 24 hours in real-life and are automatically deposited in the town bank.</p>
+<p>There are two modes of taxation. The default mode of taxation, flat taxes, takes a set amount of money from residents each day. If a resident cannot afford to pay the tax, they will be kicked from the town. The other mode of taxation, percentage taxes, takes a percentage of residents' money each day. If a resident is unable to pay a percentage tax, they will not 'be kicked from the town.</p>
+<p>The percentage and flat tax can be set through <code>/town set taxes &lt;amount/percentage&gt;</code>. To switch between the two modes of taxation, type <code>/town toggle taxpercent</code>.</p>
+<p>The following commands allow you to set taxes for different plot types:</p>
+<pre><code>- `/town set plottax &lt;amount&gt;` – Set taxes collected from each resident daily, per plot that they own.
+- `/town set shoptax &lt;amount&gt;` – Set taxes collected from each resident daily, per shop plot that they own.
+- `/town set embassytax &lt;amount&gt;` – Set taxes collected from each resident daily, per embassy plot that they own.
+</code></pre>
+<h3 id="outlaws-and-jails">Outlaws and Jails</h3>
+<p>Mayors and police can jail and unjail residents by typing <code>/town toggle jail &lt;player&gt;</code>. Jailed residents will be sent to a jail plot if one exists. They cannot teleport and will return to the jail if they die. However, they can leave by escaping the jail plot and walking out of the town, or by paying a $10,000 bail to the town bank through the command <code>/resident jail paybail</code>.</p>
+<p>Outlaws are players who can be attacked in a town even if it has PvP disabled. If an outlaw dies inside your town, they will automatically be jailed. You can manage outlaws through the command <code>/town outlaw &lt;add/remove&gt; &lt;player&gt;</code>. You can see the list of outlaws through <code>/town outlawlist</code>.</p>
+<h2 id="nations">Nations</h2>
+<p>Towns can form nations. Nations are political entities which multiple towns can be part of. Joining or creating a nation gives towns multiple benefits, including:</p>
+<pre><code>- The ability to wage war against other nations.
+- The ability to claim outposts.
+- Bonus townblocks - the larger the nation, the larger the bonus.
+</code></pre>
+<h3 id="nation-creation">Nation Creation</h3>
+<p>If a town has more than $20,000 in its bank, its mayor can create a nation by typing <code>/n new &lt;nation name&gt;</code>. For example, typing <code>/n new USA</code> will create a nation called 'USA' and will take $20,000 from your town bank. The founding town will become the nation capital, and its mayor will become the nation leader ('king').</p>
+<h3 id="inviting-towns-to-nations">Inviting Towns to Nations</h3>
+<p>You can invite other towns to your nation by typing <code>/n add &lt;town name&gt;</code>. The mayor of the town will be sent a message informing him of the invite and how to accept it. A town must be within 300 chunks of the nation capital's homeblock to be invited.</p>
+<p>You can privately talk with players in your nation by typing <code>/nc</code> to switch to nation chat. You can return to general chat by typing <code>/g</code>.</p>
+<h3 id="nation-upkeep-and-taxation">Nation Upkeep and Taxation</h3>
+<p>Nations have a daily upkeep of $1,000 which is taken from the nation bank. You can deposit nation</p>
+<p>You can set taxes on your nation's towns by typing <code>/n set taxes &lt;tax amount&gt;</code>. Like town taxes, nation taxes are taken every 24 hours in real life and are deposited in the nation bank.</p>
+<h3 id="general-nation-commands">General Nation Commands</h3>
+<pre><code>- `/nation set title &lt;player&gt; &lt;title goes here&gt;` - grants a nation member a title which will appear before their name in chat.
+- `/nation set surname &lt;player&gt; &lt;surname goes here&gt;` - grants a nation member a surname which will appear after their name in chat.
+- `/nation set name &lt;new name&gt;` - changes the nation name.
+- `/nation set capital &lt;town&gt;` - changes the nation's capital city and transfers nation leadership to its mayor.
+- `/nation set king &lt;player&gt;` - transfers nation leadership to a player in your nation.
+- `/nation set tag &lt;tag&gt;` - sets your nation tag, which will be shown in chat instead of your full nation name.
+</code></pre>
+<h3 id="nation-ranks">Nation Ranks</h3>
+<p>Nation leaders can assign ranks to nation members. This can be done by typing <code>/n rank add &lt;player&gt; &lt;rank name&gt;</code>. Like town ranks, these give the rank holder special privileges.  </p>
+<pre><code>- coleader - has all the abilities of the nation leader, including the ability to delete the nation! Give with caution.
+- chancellor - can manage nation allies and enemies, invite and kick towns, grant titles and surnames and withdraw from the nation bank.
+- treasurer - can change the tax rate and withdraw from the town bank.
+</code></pre>
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    <script id="__config" type="application/json">{"base": "..", "features": [], "search": "../assets/javascripts/workers/search.208ed371.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.b4d07000.min.js"></script>
+      
+    
+  </body>
+</html>
