@@ -18,4 +18,5 @@ For more on how to link your Discord account to the server, see [this page](disc
 
 ## Announcements
 
+- **2023-05-30:** Skills system has returned to mcMMO due to issues with EcoSkills.
 - **2023-05-21:** Skyblock game mode is now available! See [this page](skyblock.md) for more information.
